@@ -7,7 +7,7 @@
     <title>Sreenija Vanga - Resume</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Calibri', sans-serif; /* Changed to Calibri for a professional look */
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
@@ -52,40 +52,6 @@
             margin-bottom: 25px;
         }
 
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .skill {
-            background-color: #f2f2f2;
-            padding: 15px;
-            border-radius: 5px;
-            width: 48%;
-            font-size: 14px;
-            text-align: center;
-        }
-
-        .project {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .project h4 {
-            margin-bottom: 10px;
-            font-size: 20px;
-        }
-
-        .project p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-
         footer {
             background-color: #333;
             color: white;
@@ -102,7 +68,6 @@
         ul li {
             margin-bottom: 8px;
         }
-
     </style>
 </head>
 <body>
@@ -123,17 +88,19 @@
 
     <div class="section-title">Summary</div>
     <div class="section-content">
-        <p>Results-driven Software QA Engineer with 2+ years of experience at Dayspring Technologies Pvt. Ltd, focused on software testing. Proficient in both manual and automated testing, ensuring high-quality deliverables through defect tracking, test case development, and collaboration in Agile environments.</p>
+        <p>Results-driven Software QA Engineer with 3+ years of experience at Dayspring Technologies Pvt. Ltd, focused on software testing. Proficient in both manual and automated testing, ensuring high-quality deliverables through defect tracking, test case development, and collaboration in Agile environments.</p>
     </div>
 
     <div class="section-title">Technical Skills</div>
-    <div class="section-content skills">
-        <div class="skill"><strong>Testing:</strong> Manual Testing, Robot Framework, Regression, Black Box, Functional, API Testing (Postman, GraphQL, Webhooks), Database Testing (PostgreSQL)</div>
-        <div class="skill"><strong>Tools:</strong> Selenium WebDriver, TestNG, Postman</div>
-        <div class="skill"><strong>Programming:</strong> Java</div>
-        <div class="skill"><strong>Database:</strong> Oracle PL/SQL, PostgreSQL</div>
-        <div class="skill"><strong>Cloud & CI/CD:</strong> Jenkins, AWS</div>
-        <div class="skill"><strong>Practices:</strong> Agile (Scrum), SDLC, STLC, Defect Tracking, Test Case Development</div>
+    <div class="section-content">
+        <ul>
+            <li><strong>Testing:</strong> Manual Testing, Robot Framework, Regression, Black Box, Functional, API Testing (Postman, GraphQL, Webhooks), Database Testing (PostgreSQL)</li>
+            <li><strong>Tools:</strong> Selenium WebDriver, TestNG, Postman</li>
+            <li><strong>Programming:</strong> Java</li>
+            <li><strong>Database:</strong> Oracle PL/SQL, PostgreSQL</li>
+            <li><strong>Cloud & CI/CD:</strong> Jenkins, AWS</li>
+            <li><strong>Practices:</strong> Agile (Scrum), SDLC, STLC, Defect Tracking, Test Case Development</li>
+        </ul>
     </div>
 
     <div class="section-title">Work Experience</div>
@@ -154,42 +121,26 @@
 
     <div class="section-title">Projects</div>
     <div class="section-content">
-        <div class="project">
-            <h4>Report Pundit & Data Export</h4>
-            <p><strong>Domain:</strong> E-commerce Reporting and Analytics</p>
-            <p><strong>Type:</strong> Web Application Process: Agile</p>
-            <p><strong>Tools Used:</strong> Monday.com, Google Sheets</p>
-            <p><strong>Description:</strong>  
-                Robust Shopify reporting tools providing real-time analytics for e-commerce merchants.<br>
-                Report Pundit offers customizable reports for sales, inventory, and performance metrics.<br>
-                Data Export enables flexible data extraction in various formats for integration.<br>
-                Prioritized performance, accuracy, and stability across diverse conditions.
-            </p>
-        </div>
+        <h4>Report Pundit & Data Export</h4>
+        <p><strong>Domain:</strong> E-commerce Reporting and Analytics</p>
+        <p><strong>Type:</strong> Web Application</p>
+        <p><strong>Tools Used:</strong> Monday.com, Google Sheets</p>
+        <p><strong>Description:</strong> Report Pundit offers real-time reporting tools for e-commerce merchants. The Data Export feature enables flexible data extraction in various formats for integration with other systems. Focused on performance, accuracy, and stability across diverse conditions.</p>
 
-        <div class="project">
-            <h4>Automated Testing with Robot Framework</h4>
-            <p><strong>Domain:</strong> Automation Testing</p>
-            <p><strong>Tools Used:</strong> Robot Framework, Jenkins</p>
-            <p><strong>Type:</strong> Automation Test Suite</p>
-            <p><strong>Description:</strong> Developed and implemented automated test cases using Robot Framework, improving testing efficiency and reducing manual effort. Integrated test automation into CI/CD pipelines via Jenkins to ensure continuous testing and build monitoring.</p>
-        </div>
+        <h4>Automated Testing with Robot Framework</h4>
+        <p><strong>Tools Used:</strong> Robot Framework, Jenkins</p>
+        <p><strong>Type:</strong> Automation Test Suite</p>
+        <p><strong>Description:</strong> Developed and implemented automated test cases using Robot Framework, improving testing efficiency and reducing manual effort. Integrated test automation into CI/CD pipelines via Jenkins for continuous testing and build monitoring.</p>
 
-        <div class="project">
-            <h4>API Testing with Postman</h4>
-            <p><strong>Domain:</strong> API Testing</p>
-            <p><strong>Tools Used:</strong> Postman, GraphQL</p>
-            <p><strong>Type:</strong> API Validation</p>
-            <p><strong>Description:</strong> Conducted extensive API testing, using Postman and GraphQL to validate data retrieval and synchronization across systems. Ensured the accuracy and efficiency of data handling by validating API responses and error handling.</p>
-        </div>
+        <h4>API Testing with Postman</h4>
+        <p><strong>Tools Used:</strong> Postman, GraphQL</p>
+        <p><strong>Type:</strong> API Validation</p>
+        <p><strong>Description:</strong> Conducted extensive API testing, using Postman and GraphQL to validate data retrieval and synchronization across systems. Ensured the accuracy and efficiency of data handling by validating API responses and error handling.</p>
 
-        <div class="project">
-            <h4>Database Testing with PostgreSQL</h4>
-            <p><strong>Domain:</strong> Database Testing</p>
-            <p><strong>Tools Used:</strong> PostgreSQL</p>
-            <p><strong>Type:</strong> Database Validation</p>
-            <p><strong>Description:</strong> Performed database testing using complex SQL queries and joins in PostgreSQL to validate data accuracy and integrity across different system configurations.</p>
-        </div>
+        <h4>Database Testing with PostgreSQL</h4>
+        <p><strong>Tools Used:</strong> PostgreSQL</p>
+        <p><strong>Type:</strong> Database Validation</p>
+        <p><strong>Description:</strong> Performed database testing using complex SQL queries and joins in PostgreSQL to validate data accuracy and integrity across different system configurations.</p>
     </div>
 
     <div class="section-title">Awards & Scholarships</div>
@@ -201,7 +152,6 @@
     <div class="section-title">Education</div>
     <div class="section-content">
         <p><strong>M.C.A</strong> – Jain University, 2024</p>
-        <p><strong>B.C.A</strong> – Sangai University, Manipur, 2022</p>
         <p><strong>SSC</strong> – Sri Viswasanthi EM High School, Vuyyuru, 2017</p>
     </div>
 
